@@ -1,0 +1,146 @@
+@header-font-size : 36px;
+@text-font-size : 18px;
+
+h2, h3 {
+  font-size: @header-font-size;
+}
+//header
+.header-content {
+  background: linear-gradient(90deg, rgba(37, 13, 105, 1) 23%, rgba(64, 40, 123, 1) 71%, rgba(88, 67, 136, 0.8995973389355743) 100%);
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  h2, p, img {
+    color: white;
+    text-align: center;
+  }
+  p {
+    font-size: 18px;
+  }
+}
+
+.we-work-joomag {
+  position: relative;
+  .we-work-img, .joomag-logo {
+    position: absolute;
+  }
+  .we-work-img {
+    bottom: 5px;
+  }
+  .joomag-logo {
+    left: -91px;
+    top: 4px;
+  }
+}
+
+//first section
+
+.trusted-partners-section {
+  p {
+    text-align: center;
+    font-weight: bolder;
+    font-size: 24px;
+    color: #000;
+  }
+  margin: 0 auto;
+  max-width: 850px;
+}
+
+.exclusive-work-offer-section {
+  background: url("../images/Layer 43@1X.png") no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 666px;
+  h2, p {
+    text-align: center;
+    color: white;
+    font-weight: bolder;
+  }
+  p {
+    font-size: 24px;
+  }
+}
+.major-features-section {
+  p {
+    font-size: 18px;
+  }
+  .right-side-text, .right-side-header{
+    text-align: right;
+  }
+  .left-side-text {
+    text-align: left;
+  }
+  .left-sided-divs {
+    text-align: end;
+  }
+}
+
+.email-input, .sumbmit-email-btn {
+  border-radius: 0 !important;
+}
+
+footer {
+  background: url("../images/Layer 5@1X (1).png") no-repeat;
+  background-size: cover;
+  .work-hard-section {
+    margin-top: 8rem;
+  }
+  h3, p {
+    text-align: center;
+    color: white;
+  }
+}
+
+//medias
+@media (min-width: 425px) {
+  .part-2 {
+    padding: 12rem 0 3rem 0
+  }
+}
+
+@media only screen and (max-width: 425px) {
+  .lead-generation-div {
+    display: flex;
+    flex-direction: column;
+    div:nth-child(1) {
+      -webkit-box-ordinal-group: 2;
+      -moz-box-ordinal-group: 2;
+      -ms-flex-order: 2;
+      -webkit-order: 2;
+      order: 2;
+    }
+  }
+  .distribution-div {
+    display: flex;
+    flex-direction: column;
+    div:nth-child(1) {
+      -webkit-box-ordinal-group: 2;
+      -moz-box-ordinal-group: 2;
+      -ms-flex-order: 2;
+      -webkit-order: 2;
+      order: 2;
+    }
+  }
+  h3, p {
+    text-align: center !important;
+  }
+  .email-input {
+    width: 0 !important;
+  }
+
+  .sumbmit-email-btn {
+    margin-left: 30px !important;
+  }
+.image {
+  width: 100%;
+}
+  .part-2 {
+    padding: 11rem 3rem 0 3rem;
+  }
+  .centered {
+    text-align: center;
+  }
+}
